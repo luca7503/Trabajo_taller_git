@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="Estilos.css">
+        <title> MINECRAFT </title>
+    </head>
+
+    <body>
+        <head>
+            <h1>INICIANDO EN GITHUB</h1>
+            <nav>
+                <a href="./index.html">Volver a inicio</a>
+            </nav>
+        </head>
+
+        <aside>
+            <h2>indice</h2>
+            <nav>
+                <ul>
+                    <li herf="">pt1</li>
+                    <li herf="">pt2</li>
+                    <li href="">pt3</li>
+                </ul>
+            </nav>
+        </asaide>
+
+        <section>
+            <h2>¿que es github?</h2>
+            <p>
+                Para poder entender que es <strong>github</strong> lo vamos a relacionar con un servidor de minecraft. Es decir un mundo donde varias personas 
+                pueden interactuar con el lugar(construir, romper, etc...), a diferencia del singleplayer donde uno esta solo.
+                <br>
+                Lo mismo pasa con git y github. Git es la herramienta con la que podes guardar tu codigo (mundo) y github (el server) es donde podes subir el codigo para
+                compartir codigo, colaborar en el mismo proyecto, tener una copia del proyecto remota, etc...
+            </p>
+
+            <article>
+                <h2>Comandos relazionados a github</h2>
+                <p>
+                    En esta parte vas a poder encontrar todos los comandos relazionados a github con una explaciacion de que hace y para q sirven.
+                    (Los comandos basicos de git fueron explicados en la seccion de git)
+                </p>
+                <ul>
+                    <li><h3>Git clone<h3></li>
+                        <p>
+                            Este comando sirve para clonar/copiar un repositorio de github. Es decir, despues de usa este comando se va a crear una carpeta
+                            con el nombre del repositorio que se este queriendo copiar en tu computadora, y va a tener dicho codigo tambien. En terminos minecrafteanos
+                             seria el equivalente de copiar un mundo de minecraft porque te gusto y/o queres cambiarle algo.
+                            <br>
+                            La estructura de este comando es es la siguiente <mark>git clone ""</mark> entre comillas se ubicaria la url del repositorio que se quiera copiar
+                        </p>
+                    
+                    <li><h3>git remote add origin<h3></li>
+                        <p>
+                        Este comando tine un objetivo bastante similar al git clone. Solo que este en vez de traer un repositorio que ya existe te permite vincularte con un 
+                        repositorio tuyo y subir tu codigo. Para que se entinda de forma mas sencilla, vos tenes tu munco de minecraft y con este comando lo podes subir a un
+                        server para que otras personas lo puedan ver, copiar, modicar o lo que vos les permitas o no hacer con tu mundo.
+                        <br>
+                        La estructura de este comando es asi <mark>git remote add origin ""</mark> entre comillas tambien debe ir la url aca ya que se necesita vincular con 
+                        el repositorio.
+                        </p>
+
+                    <li><h3>Git pull<h3></li>
+                        <p>
+                            Este comando lo que permite hacer es actualizar tu version del codigo. En otras palabras si el dia de mañana el codigo que clonaste se actualiza y 
+                            queres tener los cambios deberias usar este comando para poder obtenerlos. Pensandolo en minecraft es como si ese mismo mundo que copiaste
+                            porque, por ejemplo, tenia un castillo re bueno al dia siguiente le agregan una ciudad y queres tener esa ciudad en tu version tambien.
+                            <br>
+                            este comando tiene la estructura de <mark>git pull</mark> y no hace falta poner nada mas ya que al momento de clonarlo ya se vincula de forma 
+                            automatica tu version local con la remota
+                        </p>
+
+                    <li><h3>Git push<h3></li>
+                        <p>
+                            Este comando seria el inverso del git pull es decir que en vez de traer cambios, sirve para subir cambios. Basicamnete lo que permite hacer
+                            es actualizar el repositorio remoto con los cambios que hicieras en el local. Volviendo a la analogia de minecraft, vos cambiaste el castillo 
+                            para que en vez de tener una apariencia similar a las de los castillos persas se vea mas a la de un castillo teuton y ahora queres subir ese cambio
+                            <br>
+                            Este comando se tiene la sintaxis de <mark>git push</mark> y tampoco necesita nada mas
+                        </p>
+
+                    <li><h3>Git fetch<h3></li>
+                        <p>
+                        Este comando en realidad es muy similar al git pull con la diferencia de que este no remplaza automaticamente tu version. Es decir te deja ver los 
+                        cambios y ya despues uno pude tomar los cambios o no. Hablando en minecraft lo que uno esta haciendo es ver el mundo actualizado por un lado mientras
+                        todavia tieene el propio por el otro. Permitiendo asi compararlos antes de decidir.
+                        <br>
+                        Este comando se realiza con <mark>git fetch</mark> y al igual que el pull no necesita url debido a que ya se vinculo previamente
+                        </p>
+
+                    <li><h3>pull/push request<h3></li>
+                        <p>
+                            Mas que un comando esto es una aclaracion. Uno va a poder subir y traer cambios siempre y cuando la persona dueña del repositorio lo permita, 
+                            de otra forma en vez de realizarse de forma automatica se va a estar pidiendo permiso al dueño y ya luego de que decida se realziara o no el
+                            debido pull, push o nada acorde a la peticion y lo que decidia. En caso de ser un repositorio propio siemrpe uno va a poder realizar cambios.
+                            En terminologia minecrafteana si el servidor es privado se pide permiso al dueño para poder tener una copia o 
+                            cambiar algo (a menos que sea tuyo).
+                        </p>
+                </ul>
+            </article>
+        </section>
+
+    </body>
+    
+    <footer>
+
+    </footer>
+
+</html>
