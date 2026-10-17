@@ -4,12 +4,12 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="Estilos.css">
-        <title> MINECRAFT </title>
+        <title> GITCRAFT </title>
     </head>
 
     <body>
         <head>
-            <h1>INICIANDO EN GITHUB</h1>
+            <h1>GUIA DE GITHUB CON MINECRAFT</h1>
             <nav>
                 <a href="./index.html">Volver a inicio</a>
             </nav>
@@ -19,9 +19,9 @@
             <h2>indice</h2>
             <nav>
                 <ul>
-                    <li herf="">pt1</li>
-                    <li herf="">pt2</li>
-                    <li href="">pt3</li>
+                    <li><a href="#comandos">Comandos relazionados con github</a></li>
+                    <li><a href="#trabajar_repo_ajeno">Como trabajar en un repositorio ajeno</a></li>
+                    <li><a href="#crear_repo">Como crear un repositorio</a></li>
                 </ul>
             </nav>
         </asaide>
@@ -37,7 +37,7 @@
             </p>
 
             <article>
-                <h2>Comandos relazionados a github</h2>
+                <h2 id="comandos">Comandos relacionados con github</h2>
                 <p>
                     En esta parte vas a poder encontrar todos los comandos relazionados a github con una explaciacion de que hace y para q sirven.
                     (Los comandos basicos de git fueron explicados en la seccion de git)
@@ -52,7 +52,7 @@
                             La estructura de este comando es es la siguiente <mark>git clone ""</mark> entre comillas se ubicaria la url del repositorio que se quiera copiar
                         </p>
                     
-                    <li><h3>git remote add origin<h3></li>
+                    <li><h3 id="git_remote_add">git remote add origin<h3></li>
                         <p>
                         Este comando tine un objetivo bastante similar al git clone. Solo que este en vez de traer un repositorio que ya existe te permite vincularte con un 
                         repositorio tuyo y subir tu codigo. Para que se entinda de forma mas sencilla, vos tenes tu munco de minecraft y con este comando lo podes subir a un
@@ -100,6 +100,25 @@
                         </p>
                 </ul>
             </article>
+            
+            <article>
+                <h2 id="trabajar_repo_ajeno">Como trabajar en un repositorio ajeno</h2>
+            </article>
+
+            <article>
+                <h2 id="crear_repo">Como crear un repositorio</h2>
+                <p>
+                    Para crear y configurar un repositorio en github es muy facil. Asumiendo que ya vinculaste tu cuenta github y git (pasos explicados en la seccion de git)
+                    Lo que vas a tener que hacer ahora es ir a github y crear un repositorio (en la parte de repositorios, se toca el boton de crear nuevo repositorio), 
+                    ahi pueden ponerle nombre, descripcion, hacerlo publico/privado, agregarle licensia al codigo, crearlo con un archivo de texto (para poner alguna
+                    informacion extra sobre el proyecto que concideres relevante) y poco mas. Ya con eso estaria creado, ahora hay que vincular el repositorio de github
+                    con una carpeta git (ya sea que ya este trabajda o una nueva para empezar de 0). Ya habiendo explicado en la seccion de git como iniciar un proyecto ahora
+                    viene como vincularlo a github. Para eso hace falta el <a href="#git_remote_add">"git remote add"</a> que meniconamos antes. Una vez hecho eso el 
+                    repositorio del cual hayas sacado la url y el proyecto en el cual ejecutaste este comando ya van a estar vinculados. A partir de ahi cada vez que quieras
+                    subir un cambio solo tenes que seguir los pasos de la seccion git para realizar un commit y pushear a tu repositorio.
+                </p>
+            </article>
+        
         </section>
 
     </body>
