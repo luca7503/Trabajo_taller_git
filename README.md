@@ -1,10 +1,11 @@
-# Proyecto
+# Proyecto 
+Realizamos este proyecto con el fin de demostrar todo nuestro conocimiento sobre GIT y GitHub adquirido a lo largo de estas semanas en el taller a cargo de Mauricio Pintos y Matias Muller.
 
-Nuestro proyecto se desarrolla con el objetivo de volcar todos los conocimientos obtenidos tanto del taller de git y gitHub como la materia de
-Lenguajes Informáticos I para crear un sitio que no solo nos sea útil como proyecto final de la cursada de este taller, sino
-también nos sea útil para entender y recordar lo enseñado, no solo a nosotros, si no a cualquiera que vea la página.
+# Objetivos
+Desarrollar una guia Sobre Git y GitHub para estudiantes haciendo varias analogias a minecraft
+Mostrar las ventajas que tiene usar esta herramienta en proyectos.
 
 # Colaboradores:
 - Luca Gonzalez Ferrara
-- Agustin Bouvet
+- Agustin Bouvet 
 - Miguel Agustin Castillo Cespedes
