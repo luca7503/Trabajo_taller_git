@@ -5,6 +5,13 @@
     --celeste: #56e0ff;
 }
 
+@font-face {
+    font-family: 'Minecrafter';
+    src: url("./Minecraft.ttf") format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     padding: 0% auto;
     margin: 0% auto;
@@ -34,20 +41,24 @@ body{
 header{
     background-color: white;
     padding-left: 1rem;
+    font-family: 'Minecrafter';
 }
 
 main{
     background-color: white;
     padding-left: 1rem;
+    font-family: 'Minecrafter';
 }
 
 aside{
     background-color: white;
     padding-left: 1rem;
+    font-family: 'Minecrafter';
 }
 
 h1, h2, h3{
     text-decoration-line:underline ;
+    font-family: 'Minecrafter';
 }
 
 h1{
@@ -57,4 +68,5 @@ h1{
 p{
     margin: 2px;
     text-indent: 1rem;
+    font-family: 'Minecrafter';
 }
