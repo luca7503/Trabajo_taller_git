@@ -58,3 +58,8 @@ p{
     margin: 2px;
     text-indent: 1rem;
 }
+footer{
+    background-color: white;
+    padding-left: 1rem;
+    text-align: center;
+}
