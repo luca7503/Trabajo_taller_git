@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="Estilos.css">
+        <title> MINECRAFT </title>
+    </head>
+
+    <body>
+
+        <header>
+
+            <h1> GUÍA DE GIT CON MINECRAFT </h1>
+
+            <a href="Index.html"> Volver a inicio </a> 
+
+            <p> ¿Buscas algo en especifico?</p>
+            <nav>
+
+                <ul>
+                    
+                    <li> <a href="#DefinicionGit"> ¿Qué es Git? </a> </li>
+                    <li> <a href="#ComandosGit"> Comandos de Git </a> </li>
+                    <li> <a href="#ComandosGit">  </a> </li>
+
+                </ul>
+
+            </nav>
+
+        </header>
+
+        <main>
+
+            <h2 id="DefinicionGit"> ¿Qué es Git?</h2>
+
+            <p>
+                <strong> Git </strong> es un sistema de control de versiones distribuido que permite a los desarrolladores
+                rastrear y gestionar los cambios en el código fuente de un proyecto a lo largo del tiempo.
+            </p>
+
+            <br>
+            
+            <article>
+                <h2> Registrarse en Git</h2>
+                
+                <p> Similar a como uno define su nametag en Minecraft, al registrarse en Git, se asigna un nombre de usuari
+                    y un correo electrónico que se utilizarán para identificar al desarrollador en el historial de cambios. </p>
+
+                <ul>
+                    <li> <strong> git config --global user.name "TuNombre" </strong>:
+                        Configura el nombre de usuario global para Git. </li>
+                    <li> <strong> git config --global user.email "TuEmail" </strong>:
+                        Configura el correo electrónico global para Git. </li>
+                </ul>
+            </article>
+
+            <article id="ComandosGit">
+
+                <h2> Comandos Relacionados con Git</h2>
+
+                <p>
+                    A continuación, se presentan algunos de los comandos más utilizados en Git, junto con una breve
+                    descripción y comparación para poder comprender cuál es su función:
+                </p>
+
+                <ul>
+                    <li> <strong> git init </strong>: Inicializa un nuevo repositorio Git en el directorio actual. </li>
+                    <li> <strong> git clone </strong>: Crea una copia local de un repositorio existente. </li>
+                    <li> <strong> git add </strong>: Agrega archivos al área de preparación (staging area). </li>
+                    <li> <strong> git commit </strong>: Guarda los cambios en el historial del repositorio. </li>
+                    <li> <strong> git status </strong>: Muestra el estado de los archivos en el repositorio. </li>
+                </ul>
+
+                <nav>
+                    <a href="#GitInit"> git init </a>
+                    <a href="#GitClone"> git clone </a>
+                    <a href="#GitAdd"> git add </a>
+                    <a href="#GitCommit"> git commit </a>
+                    <a href="#GitStatus"> git status </a>
+                </nav>
+
+                <section id="GitInit">
+                    <h3> git init </h3>
+                    <p>
+                        Si deseamos crear un repositorio Git en nuestro directorio actual, utilizamos el comando <code> git init </code>.
+                    </p>
+                    <p>
+                        Podemos compararlo con la creación de mundos en Minecraft, sin embargo, hay una clara diferencia;
+                        en Minecraft, al crear un mundo, este se genera con archivos, mientras que al crear un repositorio Git,
+                        este se genera vacío, sin archivos ni carpetas, será nuestro labor el agregar archivos y carpetas al mismo.
+                    </p>
+
+                    <img src="img/new_world_2.jpg" alt="Analogía con Crear Mundo en Minecraft" width="400" height="300">
+                </section>
+
+                <section id="GitClone">
+                    <h3> git clone </h3>
+                    <p>
+                        Si deseamos trabajar con un repositorio que ya existe, utilizamos el comando <code> git clone </code>.
+                    </p>
+                    <p>
+                        Podemos compararlo con la descarga de mapas en Minecraft, al descargar un mapa, este se genera con los
+                        archivos y carpetas de su/s creadores. Al clonar un repositorio Git, este se genera con archivos y carpetas
+                        que ya existían en el repositorio original, identico a Minecraft.
+                    </p>
+
+                    <img src="img/map_clone_2.jpg" alt="Analogía con Descargar Mapas en Minecraft" width="400" height="300">
+
+                </section>
+
+                <section id="GitAdd">
+                    <h3> git add </h3>
+                    <p>
+                        Si deseamos agregar archivos al área de preparación (staging area), utilizamos el comando <code> git add </code>.
+                    </p>
+                    <p>
+                        Cualquier acción realizada en el juego podría ser un ejemplo de este comando, si destruimos un bloque, si
+                        construimos una casa, si matamos un zombi, si logramos una hazaña impresionante; son datos que decidimos
+                        guardar en nuestra partida. Como Minecraft tiene guardado automatico, no podemos elegir que deseamos guardar,
+                        sin embargo, en Git, podemos elegir que cambios deseamos guardar y cuales no, con <code> git add </code>
+                        podemos escoger a estos mismos.
+                    </p>
+
+                    <img src="img/inventory.webp" alt="Analogía con Inventario en Minecraft" width="400" height="300">
+
+                </section>
+
+                <section id="GitCommit">
+                    <h3> git commit </h3>
+                    <p>
+                        Si deseamos guardar los cambios en el historial del repositorio, utilizamos el comando <code> git commit </code>.
+                    </p>
+                    <p>
+                        Como se explico en la sección anterior, cualquier acción realizada en el juego podría ser un dato a guardar,
+                        pero estos datos dispersos, no tienen sentido si no los guardamos en un archivo de guardado. Al salir de la partida,
+                        Minecraft guarda automáticamente los cambios realizados en el mundo, este sería el commit de nuestra partida,
+                        mediante archivos incluso podemos duplicarla y recargarla en cualquier momento. En git, el commit es el
+                        encargado de guardar los cambios que decidimos con <code> git add </code>.
+                    </p>
+
+                    <img src="img/commit_minecraft.jpg" alt="Analogía con Guardado en Minecraft" width="400" height="300">
+
+                </section>
+
+                <section id="GitStatus"> 
+                    <h3> git status </h3>
+                    <p>
+                        Si deseamos ver el estado de los archivos en el repositorio, utilizamos el comando <code> git status </code>.
+                    </p>
+                    <p>
+                        En Minecraft, si deseamos ver el estado de nuestro mundo, podemos abrir el menú de pausa y ver la información
+                        del mundo, como la cantidad de jugadores conectados, la dificultad del juego, la versión del juego, entre otros.
+                        En Git, el comando <code> git status </code> nos permite ver el estado de los archivos en el repositorio,
+                        como los archivos modificados, los archivos agregados al área de preparación y los archivos sin seguimiento.
+                    </p>
+
+                    <img src="img/data.png" alt="Analogía con los datos de Minecraft" width="400" height="300">
+                </section>
+
+                <section>
+                    <h3> git log </h3>
+                    <p>
+                        Si deseamos ver el historial de cambios en el repositorio, utilizamos el comando <code> git log </code>.
+                    </p>
+                    <p>
+                        El comando <code> git log </code> nos permite ver el historial de cambios en el repositorio, como los commits realizados,
+                        los autores de los commits y los mensajes de los commits. En Minecraft esto sería como ver las diferencias
+                        entre los archivos de guardado, que bloques se agregaron, quien los puso, etc.
+                    </p>
+
+                    <img src="img/log_game.webp" alt="Analogía con el historial de Minecraft" width="400" height="400">
+                    <br>
+                    <img src="img/falling_code.gif" alt="Analogía con el historial de Git" width="400" height="400">
+                </section>
+            </article>
+        </main>
+
+    </body>
+
+</html>
