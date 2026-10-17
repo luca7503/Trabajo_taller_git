@@ -1,0 +1,60 @@
+:root{
+    --verde: #5B8731;
+    --marron: #7A5230 ;
+    --gris: #4A4A4A;
+    --celeste: #56e0ff;
+}
+
+* {
+    padding: 0% auto;
+    margin: 0% auto;
+    box-sizing: border-box;
+}
+
+a{
+    color: var(--marron);
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color: var(--verde);
+}
+
+p{
+    color: var(--gris);
+}
+
+body{
+    background-image: url(./img/tierra.png);
+    box-sizing: border-box;
+    max-width: 50%;
+}
+
+header{
+    background-color: white;
+    padding-left: 1rem;
+}
+
+main{
+    background-color: white;
+    padding-left: 1rem;
+}
+
+aside{
+    background-color: white;
+    padding-left: 1rem;
+}
+
+h1, h2, h3{
+    text-decoration-line:underline ;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    margin: 2px;
+    text-indent: 1rem;
+}
